@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    list-style: none;
+    background-color: orange;
+    
+}
+.hero{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 150px;
+    
+    
+}
+.hero h2{
+    
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.hero p{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.card{
+    background-color: antiquewhite;
+    
+    text-align: center;
+    width: ;
+
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+section h2{
+    margin-top: 20px;
+
+}
+
+
+
+
